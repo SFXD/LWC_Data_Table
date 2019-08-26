@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="LightningDataTable">
+    <apiVersion>46.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>LWC Data Table</masterLabel>
+    <targets>
+        <target>lightning__HomePage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage,lightning__AppPage,lightning__RecordPage,lightningCommunity__Default">
+            <property name="sObjectName" type="String" label="Object API Name" />
+            <property name="fieldSetName" type="String" label="Field Set API Name" />
+            <property name="sObjectLookupIDField" type="String" label="sObject Lookup Field API Name" description="Leave blank on Home and App Pages for a List or Filtered List." />
+            <property name="additionalWhereClause" type="String" label="(Additional) WHERE Clause in SOQL Query" description="Leave blank on Record Pages for a Related List.  Leave blank on Home and App Pages for a List." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
