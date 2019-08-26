@@ -38,3 +38,5 @@ Here is a table breakdown of what lists work on what pages:
 * (Additional) WHERE Clause in SOQL Query - optional filtering statement for WHERE clause in SOQL queries
 
 # Example Uses
+![App Page Data Table](https://user-images.githubusercontent.com/20356405/63729244-92fc4c80-c85e-11e9-82da-30de152fce19.gif)
+![Record Page Data Table](https://user-images.githubusercontent.com/20356405/63729278-a7404980-c85e-11e9-8ee2-e6268096829a.gif)
